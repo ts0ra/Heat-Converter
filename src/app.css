@@ -1,3 +1,11 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+/* :root {
+  --sk-bg-hue: 220;
+}
+
+body {
+  background-color: hsl(var(--sk-bg-hue),14%,16%);
+} */
