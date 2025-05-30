@@ -61,7 +61,7 @@
 
 </script>
 
-<div class="container bg-amber-200 flex flex-col items-center justify-center min-h-screen">
+<div class="w-screen h-screen bg-amber-200 flex flex-col items-center justify-center">
   <Title />
   <HeatInput name="Celsius" bind:value={celcius} onInputChange={handleInputChange} />
   <HeatInput name="Fahrenheit" bind:value={fahrenheit} onInputChange={handleInputChange} />
